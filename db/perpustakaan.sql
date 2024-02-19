@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 19, 2024 at 01:01 PM
+-- Generation Time: Feb 19, 2024 at 04:02 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -111,7 +111,8 @@ CREATE TABLE `koleksipribadi` (
 INSERT INTO `koleksipribadi` (`koleksiID`, `UserID`, `BukuID`) VALUES
 (3, 0, 7),
 (9, 20, 9),
-(10, 20, 7);
+(10, 20, 7),
+(11, 20, 10);
 
 -- --------------------------------------------------------
 
@@ -282,7 +283,7 @@ ALTER TABLE `kategoribuku_relasi`
 -- AUTO_INCREMENT for table `koleksipribadi`
 --
 ALTER TABLE `koleksipribadi`
-  MODIFY `koleksiID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `koleksiID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `peminjaman`
