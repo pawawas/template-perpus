@@ -191,7 +191,7 @@ error_reporting(0);
                                             <label class="form-label">Jumlah</label>
                                         </div>
                                         <div class="media post_item">
-                                            <input type="number" name="jumlah" id="" class="form-control" class="form-control" Required>
+                                            <input type="number" name="jumlah" id="" max="<?php echo $result['Stok'] ?>" class="form-control" class="form-control" Required>
                                         </div>
                                         <?php
                                         if ($_SESSION['ulogin']) {
